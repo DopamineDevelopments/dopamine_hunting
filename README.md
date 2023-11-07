@@ -1,4 +1,4 @@
-# dopamine_hunting
+# DOPAMINE HUNTING
 ESX Hunting Script
 
 
