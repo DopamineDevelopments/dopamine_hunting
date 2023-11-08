@@ -8,7 +8,7 @@ lua54 'yes'
 shared_scripts {
   '@ex_extended/imports.lua',
   '@ox_lib/init.lua',
-  'shared/DPMN/lua',
+  'shared/DPMN.lua',
 }
 
 server_scripts {
