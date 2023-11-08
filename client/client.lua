@@ -24,10 +24,7 @@ end)
 CreateThread(function()
   local DPMN = DPMN.Ped
   local modelHash = GetHashKey(DPMN.model)
-  RequestModel(modelHash) 
-  while ( not HasModelLoaded(modelHash) ) do
-      Wait(1)
-  end
+  lib.requestModel(modelHash)
   local ped = CreatePed(1, modelHash, DPMN.coords, false, true)
   SetEntityInvincible(ped, true)
   SetBlockingOfNonTemporaryEvents(ped, true) 
